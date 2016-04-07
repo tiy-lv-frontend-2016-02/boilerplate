@@ -1,0 +1,44 @@
+{
+  "name": "wishlist",
+  "version": "0.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "Michael Sweeney",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
+    "gulp-serve": "^1.2.0",
+    "html-webpack-plugin": "^2.15.0",
+    "json-loader": "^0.5.4",
+    "mustache-loader": "^0.3.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "stylus-loader": "^2.0.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.9.1",
+    "font-awesome": "^4.5.0",
+    "normalize": "^0.3.1",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-redux": "^4.4.1",
+    "react-router": "^2.0.1",
+    "redux": "^3.3.1"
+  }
+}
